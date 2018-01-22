@@ -1,0 +1,83 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+	background-image: url(IMG_0125.jpg);
+	
+}
+
+wrapper {
+	width: 960px;
+	overflow: auto;
+	margin: 0;
+}
+header {
+	width: 66%;
+	height: 50px;
+	float:right;
+	font-size: 20px;
+	text-align: center;
+background-color: orange;
+padding: 40px;
+margin-right: 0;
+margin-top: 0;
+
+}
+
+h1 {
+	background: #fff;
+	position: fixed;
+	padding: 40px 40px 40px 10px;
+width: 33%;
+margin-top: 0;
+left:0;
+	font-family: Georgia;
+
+
+
+}
+
+.contact {
+	float: right;
+	padding: 60px;
+	background: white;
+	margin-top: -10;
+	position: relative;
+
+
+
+	
+}
+
+image {
+	float:left;
+	overflow: auto;
+	padding: 20px 20px 20px 5px;
+}
+}
+section { 
+	float:left;
+	width: 33%;
+	height: 33%; }
+
+strong {
+	font-size: 	30px;
+	font-family: Georgia;
+}
+
+
+p {
+
+	float:left;
+	margin-left:0;
+	top: 300px;
+	background: white;
+	width:60% ;
+	font-size: 	20px;
+	margin-top: 100px;
+	padding: 70px;
+	text-align: left;
+
+}
