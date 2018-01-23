@@ -3,26 +3,27 @@
   box-sizing: border-box;
   text-align: center;
 }
-body{
+body {
 	background-image: url(IMG_0125.jpg);
 	
 }
 
-wrapper {
-	width: 960px;
+.wrapper {
+	width: 650px;
 	overflow: auto;
 	margin: 0;
 }
 header {
-	width: 66%;
-	height: 50px;
-	float:right;
-	font-size: 20px;
-	text-align: center;
-background-color: orange;
-padding: 40px;
-margin-right: 0;
-margin-top: 0;
+
+	   float: right;
+    width: 66%;
+    background-color: #666;
+    font-size: 20px;
+    text-align: center;
+    padding: 23px 15px 15px 15px;
+    display: inline;
+    height: 60px;
+	
 
 }
 
@@ -30,9 +31,9 @@ h1 {
 	background: #fff;
 	position: fixed;
 	padding: 40px 40px 40px 10px;
-width: 33%;
-margin-top: 0;
-left:0;
+	width: 33%;
+	margin-top: 0;
+	left:0;
 	font-family: Georgia;
 
 
@@ -41,10 +42,11 @@ left:0;
 
 .contact {
 	float: right;
-	padding: 60px;
+	padding: 10px 10x 10px 20px;
 	background: white;
-	margin-top: -10;
-	position: relative;
+	width: 66%;
+	margin-top: -275px;
+
 
 
 
@@ -54,6 +56,8 @@ left:0;
 image {
 	float:left;
 	overflow: auto;
+	height: 30%;
+	width: 30%;
 	padding: 20px 20px 20px 5px;
 }
 }
@@ -65,19 +69,32 @@ section {
 strong {
 	font-size: 	30px;
 	font-family: Georgia;
+	text-align: center;	
 }
 
 
-p {
+.aboutme {
 
 	float:left;
 	margin-left:0;
-	top: 300px;
 	background: white;
 	width:60% ;
 	font-size: 	20px;
 	margin-top: 100px;
-	padding: 70px;
-	text-align: left;
+	padding: 70px 50px 50px 50px;
+	text-align: center;
 
+}
+
+
+footer {
+	text-align: center;
+	clear:both;
+	position:fixed;
+	margin-bottom: 	0;
+}
+.social-images {
+	width: 50px;
+	height: 50px;
+	padding: 2px;
 }
